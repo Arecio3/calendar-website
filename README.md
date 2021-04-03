@@ -12,3 +12,8 @@ Pictures provided in a IMG folder.
 
 Here is a link to the live website.  https://arecio3.github.io/calendar-website/
 
+<img src="assets/img/Screen Shot 2021-04-03 at 3.20.53 PM.png" alt="calendar website with some examples of events that are saved.">
+
+
+<img src="assets/img/Screen Shot 2021-04-03 at 3.19.50 PM.png" alt="calendar website with no events that are saved.">
+
