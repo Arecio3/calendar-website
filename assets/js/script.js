@@ -1,15 +1,19 @@
+// just makes sure that files get loaded properly
 $(document).ready(function() {
-
+// On click event hooked into the submit button
     $('.saveBtn').on('click', function (){
         console.log("click button")
-        var textTime = $(this).siblings('.description').val();
-        var textValue = $(this).parent().attr('id');
-        localStorage.setItem(textValue, textTime);
+        //makes textValue hold the value of what was typed by "this sibiling"
+        var textValue = $(this).siblings('.description').val();
+        // makes textTime hooks into the id of its parent 
+        var textTime = $(this).parent().attr('id');
+        //sets both of those values to local storage
+        localStorage.setItem(textTime, textValue);
         console.log(textValue);
         console.log(textTime);
     })
-
-
+    
+    
 
 
     var today = moment();
